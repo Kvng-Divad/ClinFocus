@@ -26,7 +26,7 @@ var images_2 = new Array(
     "./images/img13.jpg",
      "./images/career.jpg",
      "./images/img.12.jpg",
-     "./images/career4.avif"
+     "./images/career4.jpg"
     
 );
 var lens = images_2.length;
