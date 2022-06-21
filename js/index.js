@@ -22,6 +22,10 @@ var swiperTestimonials = new Swiper (".testimonial-container", {
         el:'.swiper-pagination',
         clickable:true,
     }, 
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
     });  
 
 var swiperHome = new Swiper (".hero-container", {
@@ -41,5 +45,5 @@ var swiperHome = new Swiper (".hero-container", {
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
-          },
+        }
 });

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Merriweather:wght@400;700;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kanit:wght@400;500;600;700;800;900&family=Lobster&family=Merriweather:wght@400;700;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
 :root{
     --bg-black-900:#434343;
     --bg-black-200:#e5e5e5;
@@ -183,13 +183,12 @@ nav{
     width: 1.75rem;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--txt-black-900);
     cursor: pointer;
     display: none;
     z-index: 100;
 }
 .toggler i{
-    font-size: 20px;
+    font-size: 25px;
     color: #000;
 }
 .toggler i:focus{
@@ -284,10 +283,10 @@ nav{
     min-height: 100%;
     display:none;
     background: var(--bg-black-900);
-    width: 15rem;
-    opacity: 1;
+    width: 50%;
+    opacity: .95;
     color: var(--txt-black-700);
-    z-index: 10;
+    z-index: 5;
 }
 .aside.open{
     right: 0px;
@@ -298,6 +297,9 @@ nav{
     position: relative;
     margin: 2.175rem 1.625rem 3rem auto;
     z-index: 10;
+}
+.aside-toggler .fa{
+    color: #fff;
 }
 .aside .menu-link{
     padding: 1rem 1rem;  
@@ -448,21 +450,37 @@ nav{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 1.5rem;
+    animation: slide .5s;
+    -webkit-animation-delay: .3s;
+}
+@keyframes slide
+{
+   0%{
+       transform: translateX(100%);
+   }
+   100%{
+       transform: translateX(0%) ;
+   }
 }
 .container-info h2{
     text-align: left;
     font-size: var(--h1-size);
     font-weight: var(--font-bold);
-    font-family: 'Merriweather', serif;;
+    font-family: 'kanit', serif;
     color: var(--txt-black-700);
     padding: 0 1rem;
+    text-transform: uppercase;
+    transition: .5s;
 }
 .container-info span{
     text-align: left;
     font-size: var(--font-size-nr);
     font-weight: var(--font-semibold);
     color: var(--txt-black-700);
+    font-family: 'poppins', serif;
     padding: 0 1rem;
+    transition: .5s;
+    transition-delay: .25s;
 }
 .hero-container:hover .swiper-button-prev,
 .hero-container:hover .swiper-button-next{
@@ -501,7 +519,10 @@ nav{
 .swiper-pagination-bullet-active{
     background-image:  var(--skin-color) !important;
 }
-
+.testimonial-container .swiper-button-prev,
+.testimonial-container .swiper-button-next{
+   display: block !important;
+}
 /*swiper*/
 
 
@@ -1217,16 +1238,22 @@ font-weight: var(--font-medium);
 .animation2 img{
     width: 100%;
     height: 70vh;
-    animation: zoomin 5s linear infinite;
+    animation: zoomin 5s infinite;
 }
 @keyframes zoomin
 {
     0%{
         transform: scale(1);
     }
+    15%{
+        transform: scale(1.5);
+    }
+    85%{
+        transform: scale(1.5);
+    }
     
     100%{
-        transform:  scale(1.5);
+        transform:  scale(1);
     }
 }
 .available{
