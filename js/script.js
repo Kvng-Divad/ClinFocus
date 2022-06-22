@@ -19,7 +19,9 @@ a_parent.forEach(function(a_parent_item){
         })
         a_parent_item.classList.toggle("drop");
     });
-})
+});
+
+
 
 
 function drop_remove(){

@@ -353,13 +353,13 @@ nav{
 
 
 .dd-menu.As{
-    background-color: var(--bg-black-700);
+    background: transparent;
     display: none;
     position: relative;
     max-width:100%;
     top:0px;
     right:0;
-    opacity: 1;
+    opacity:.95;
     z-index:3;
     transition: all .5s ease;
     animation: slidedown .35s ease;
@@ -450,8 +450,8 @@ nav{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 1.5rem;
-    animation: slide .5s;
-    -webkit-animation-delay: .3s;
+    animation: slide 1s forwards;
+    animation-delay: .75s;
 }
 @keyframes slide
 {
@@ -1184,47 +1184,50 @@ font-weight: var(--font-medium);
 .contact-form{
     flex: 0 0 100%;
     max-width: 100%;
-    }
-    .form-item{
-        margin-bottom: 30px;
-    }
-    .form-item .form-control{
-        width: 100%;
-        height: 60px;
-        border-radius: 15px;
-        border: 0;
-        background: var(--bg-black-100);
-        padding: 10px 25px;
-        font-size: 18px;
-        color: var(--txt-black-900);
-        transition: all 0.5s ease ;
-    }
-    .form-item .form-control:focus{
-        box-shadow: 5px 5px 5px 5px var(--txt-black-500);
-        transition: all 0.5s ease ;
-        transform: translateY(-5px);
-    }
-    .form-item textarea.form-control{
-        height: 140px;
-    }
-    .contact-form .btn-hire{
-        height: 50px;
-        padding: 0 50px;
-        border: 0;
-        font-size: 16px;
-        font-weight: 400;
-        color: white;
-        border-radius: 15px;
-        justify-content: center;
-        background: var(--back-black-900); 
-        background: var(--back-black-100);  
-        background: var(--back-black-500);
+}
+.form-item{
+     margin-bottom: 30px;
+}
+.form-item .form-control{
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    border: 0;
+    background: var(--bg-black-100);
+    padding: 10px 25px;
+    font-size: 18px;
+    color: var(--txt-black-900);
+    transition: all 0.5s ease ;
+}
+.form-item .form-control:focus{
+    box-shadow: 5px 5px 5px 5px var(--txt-black-500);
+    transition: all 0.5s ease ;
+    transform: translateY(-5px);
+}
+.form-item textarea.form-control{
+    height: 140px;
+}
+.contact-form .btn-hire{
+    height: 50px;
+    padding: 0 50px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    background: var(--back-black-900); 
+    background: var(--back-black-100);  
+    background: var(--back-black-500);
 }
 .contact-form .btn-hire:focus{
     box-shadow: 5px 5px 5px 5px var(--txt-black-500);
     opacity: .75;
     transition: all 0.5s ease ;
     transform: translateY(-5px);
+}
+.map iframe{
+    width: 95%;
 }
 
 
