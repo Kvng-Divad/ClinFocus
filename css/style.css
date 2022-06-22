@@ -573,8 +573,10 @@ nav{
 .section-title h2{
     font-size: var(--font-size-bg);
     font-weight: var(--font-bold);
+    font-family: "poppins", sans-serif;
     color: var(--txt-black-700);
     padding: 0 1.25rem 1.25rem;
+    text-transform: uppercase;
 }
 
 
