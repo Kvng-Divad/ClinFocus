@@ -1205,7 +1205,8 @@ font-weight: var(--font-medium);
     transform: translateY(-5px);
 }
 .form-item textarea.form-control{
-    height: 140px;
+   font-family: "poppins" sans-serif;
+   height: 20vh;
 }
 .contact-form .btn-hire{
     height: 50px;
