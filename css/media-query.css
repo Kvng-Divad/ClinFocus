@@ -151,8 +151,8 @@
     padding: 5rem 1.5rem;
 }
 .mission-article img{
-    height: 27rem;
-    width: 118%;
+    height: 120%;
+    width: 100%;
 }
 .card{
     flex: 0 0 30%;
@@ -179,12 +179,18 @@
 .services-button a{
     width: 11rem;
 }
+.testimonial-img img{
+    zoom: 1.25;
+}
 }
 
 @media (min-width:1200px){
     .container{
         margin-right: auto;
         margin-left: auto;
+    }
+    padd-3{
+        padding: 0;
     }
     .container2{
         margin-left: auto;

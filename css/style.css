@@ -891,7 +891,7 @@ nav{
      max-width: 100%;
      gap: 3rem 2rem;
      max-width: 1300px;
-     margin:0 auto  5rem;
+        margin: 0 auto 7rem;
   }
 
   .slider{
@@ -911,16 +911,17 @@ nav{
     width: 100%;
     height: 100%;
   }
-  
-  
-  #about .info2-airticle ul li{
+  .padd-3{
+    padding: 0 1.5rem;
+  }
+#about .info2-airticle ul li{
       margin: 1em 0;
   }
 
 
   /* mission*/
   #mission{
-      padding: 5.5rem 0;
+    margin: 2rem 0;
   }
   .mission-container{
       display: flex;
@@ -944,6 +945,7 @@ nav{
   .mission-article h3{
     font-size: var(--h3-size);
     font-weight: var(--font-bold);
+    margin-bottom: .5rem;
   }
   .mission-article p{
       font-size: var(--font-size-nr);
@@ -1445,6 +1447,7 @@ font-weight: var(--font-medium);
     flex-direction: column;
     flex: 0 0 100%;
     max-width: 100%;
+    text-transform: capitalize;
 }
 .footer-item h3{
     font-size: var(--font-size-sm);
@@ -1465,7 +1468,7 @@ font-weight: var(--font-medium);
 }
 .footer-row1{
     text-align: center;
-    justify-items: center;
+    justify-items: space-between;
     grid-template-columns: repeat(1, 1fr);
     padding: 1rem 0;
     row-gap: 1rem;
@@ -1482,6 +1485,7 @@ font-weight: var(--font-medium);
 }
 .terms{
     display: flex;
+    justify-content: flex-end;
     column-gap: 1rem;
 }
 .terms p{
@@ -1571,7 +1575,6 @@ font-weight: var(--font-medium);
 }
 .testimonial-img img{
     border-radius: 50%;
-    zoom: 2;
     width: 6rem;
     height: 6rem;
 }
