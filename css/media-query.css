@@ -39,6 +39,9 @@
     .container-info{
         width: 50%;
     }
+    .studies-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }  
 
 @media (min-width:650px){
@@ -78,6 +81,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
+
 
 #management .row{
     grid-template-columns: repeat(2, 1fr);
@@ -181,6 +185,13 @@
 }
 .testimonial-img img{
     zoom: 1.25;
+}
+.studies-container{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+.studies-box{
+    width: 95%;
 }
 }
 
