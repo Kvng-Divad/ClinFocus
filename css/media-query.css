@@ -112,29 +112,29 @@
 }
 @media (min-width:960px){
 .hero-container{
-    height: 85vh;
+    height: 87vh;
 }
 .layer{
-    height: 85vh;
+    height: 87vh;
 }
 .animation{
-    height: 85vh;
+    height: 87vh;
 }
 .animation img{
-    height: 85vh;
+    height: 87vh;
 }
 
 #careers .hero-section{
-    height: 85vh;
+    height: 87vh;
 }
 #careers .background{
-    height: 85vh;
+    height:87vh;
 }
 #careers .background img{
-    height: 85vh;
+    height:87vh;
 }
 #careers .overlay{
-    height: 85vh;
+    height:87vh;
 }
 
 .info-item{
