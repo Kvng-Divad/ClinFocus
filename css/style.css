@@ -207,8 +207,8 @@ nav{
     display: none;
     position: absolute;
     max-width:100%;
-    top:90px;
-    right: 15em;
+    top:80px;
+    right: 15.75em;
     opacity: 1;
     z-index:0;
     transition: all .5s ease;
@@ -221,7 +221,7 @@ nav{
     display: none;
     position: absolute;
     max-width:100%;
-    top:90px;
+    top:80px;
     right: 23.5em;
     opacity: 1;
     z-index:0;
@@ -1178,11 +1178,11 @@ nav{
 .contact-title{
     color: var(--bg-black-700);
     text-align: center;
+    text-transform: capitalize !important;
     font-size: var(--h1-size);
     font-weight: var(--font-bold);
     margin-top: 3rem;
     margin-bottom: 2rem;
-
 }
 
 .row2{
