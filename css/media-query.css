@@ -81,7 +81,9 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
-
+.padd-3{
+    padding: 1rem;
+}
 
 #management .row{
     grid-template-columns: repeat(2, 1fr);
@@ -200,7 +202,7 @@
         margin-right: auto;
         margin-left: auto;
     }
-    padd-3{
+    .padd-3{
         padding: 0;
     }
     .container2{
